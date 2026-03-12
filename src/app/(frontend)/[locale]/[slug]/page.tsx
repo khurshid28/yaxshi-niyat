@@ -9,6 +9,7 @@ import { StructuredDataServer } from '@/components/StructuredDataServer'
 import { SITE_CONFIG } from '@/payload.config'
 
 export async function generateStaticParams() {
+  if (process.env.NEXT_BUILD_SKIP_DB === 'true') return []
   try {
     const payload = await getPayload({ config: configPromise })
     const pages = await payload.find({

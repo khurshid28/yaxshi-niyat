@@ -24,7 +24,11 @@ COPY . .
 # Learn more here: https://nextjs.org/telemetry
 # Uncomment the following line in case you want to disable telemetry during the build.
 # ENV NEXT_TELEMETRY_DISABLED 1
-#"postgres://neondb_owner:npg_3BU8gXOChIfi@ep-damp-cell-a5ybw0u0-pooler.us-east-2.aws.neon.tech/neondb?sslmode=require";
+
+# Build-time env: skip DB connections during static generation
+ENV PAYLOAD_SECRET=build_secret_placeholder
+ENV POSTGRES_URL=postgresql://fake:fake@localhost:5432/fake
+ENV NEXT_BUILD_SKIP_DB=true
 
 RUN npm run build
 

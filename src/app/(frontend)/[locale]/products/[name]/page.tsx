@@ -54,6 +54,7 @@ export default async function Blog({ params }: Props) {
 }
 
 export async function generateStaticParams() {
+  if (process.env.NEXT_BUILD_SKIP_DB === 'true') return []
   try {
     const payload = await getPayload({ config: configPromise })
     const pages = await payload.find({
