@@ -8,31 +8,8 @@ import { PayloadRedirects } from '@/components/PayloadRedirects'
 import { StructuredDataServer } from '@/components/StructuredDataServer'
 import { SITE_CONFIG } from '@/payload.config'
 
-export async function generateStaticParams() {
-  if (process.env.NEXT_BUILD_SKIP_DB === 'true') return []
-  try {
-    const payload = await getPayload({ config: configPromise })
-    const pages = await payload.find({
-      collection: 'pages',
-      limit: 1000,
-      overrideAccess: true,
-      pagination: false,
-      select: {
-        slug: true,
-      },
-    })
-
-    const params = pages.docs
-      ?.filter((doc) => {
-        return doc.slug !== 'home'
-      })
-      .map(({ slug }) => ({ slug }))
-
-    return params
-  } catch {
-    return []
-  }
-}
+export const dynamic = 'force-dynamic'
+export const dynamicParams = true
 
 type Args = {
   params: Promise<{

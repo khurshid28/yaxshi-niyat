@@ -53,32 +53,8 @@ export default async function Blog({ params }: Props) {
   )
 }
 
-export async function generateStaticParams() {
-  if (process.env.NEXT_BUILD_SKIP_DB === 'true') return []
-  try {
-    const payload = await getPayload({ config: configPromise })
-    const pages = await payload.find({
-      collection: 'pages',
-      where: {
-        parent: {
-          equals: 7,
-        },
-      },
-      limit: 1000,
-      overrideAccess: true,
-      pagination: false,
-      select: {
-        slug: true,
-      },
-    })
-
-    const params = pages.docs.map(({ slug }) => ({ name: slug }))
-
-    return params
-  } catch {
-    return []
-  }
-}
+export const dynamic = 'force-dynamic'
+export const dynamicParams = true
 
 type Args = {
   params: Promise<{

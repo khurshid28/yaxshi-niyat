@@ -25,10 +25,9 @@ COPY . .
 # Uncomment the following line in case you want to disable telemetry during the build.
 # ENV NEXT_TELEMETRY_DISABLED 1
 
-# Build-time env: skip DB connections during static generation
+# Build-time env: no DB needed, pages render at runtime
 ENV PAYLOAD_SECRET=build_secret_placeholder
 ENV POSTGRES_URL=postgresql://fake:fake@localhost:5432/fake
-ENV NEXT_BUILD_SKIP_DB=true
 
 RUN npm run build
 
