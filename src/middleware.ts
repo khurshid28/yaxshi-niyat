@@ -12,16 +12,10 @@ const TRACKING_PARAMS = [
 
 export default async function middleware(req: NextRequest) {
   const url = req.nextUrl.clone()
-  const isLocalhost = url.hostname.includes('localhost')
-
-  // Debug logging
-  console.log("🌐 Incoming request:", {
-    fullUrl: req.url,
-    hostname: url.hostname,
-  })
+  const isLocal = url.hostname.includes('localhost') || url.hostname.match(/^(\d{1,3}\.){3}\d{1,3}$/) || url.hostname === '0.0.0.0'
 
   // 1. Handle security redirects first (www → non-www, HTTP → HTTPS)
-  if (!isLocalhost) {
+  if (!isLocal) {
     // Redirect www → non-www
     if (url.hostname.startsWith('www.')) {
       url.hostname = url.hostname.replace(/^www\./, '')

@@ -27,6 +27,11 @@ services:
       - PAYLOAD_SECRET=75c98a9def0e3a58eaabcc5e
       - NEXT_PUBLIC_SERVER_URL=http://217.29.112.250
       - SITE_URL=http://217.29.112.250
+      - SMTP_HOST=smtp.gmail.com
+      - SMTP_PORT=587
+      - SMTP_USER=info@yaxshiniyat.uz
+      - SMTP_PASS=pgog cspb bvdh naeh
+      - SMTP_FROM=info@yaxshiniyat.uz
     depends_on:
       postgres:
         condition: service_healthy
