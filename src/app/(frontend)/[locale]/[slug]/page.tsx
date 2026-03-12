@@ -9,24 +9,28 @@ import { StructuredDataServer } from '@/components/StructuredDataServer'
 import { SITE_CONFIG } from '@/payload.config'
 
 export async function generateStaticParams() {
-  const payload = await getPayload({ config: configPromise })
-  const pages = await payload.find({
-    collection: 'pages',
-    limit: 1000,
-    overrideAccess: true,
-    pagination: false,
-    select: {
-      slug: true,
-    },
-  })
-
-  const params = pages.docs
-    ?.filter((doc) => {
-      return doc.slug !== 'home'
+  try {
+    const payload = await getPayload({ config: configPromise })
+    const pages = await payload.find({
+      collection: 'pages',
+      limit: 1000,
+      overrideAccess: true,
+      pagination: false,
+      select: {
+        slug: true,
+      },
     })
-    .map(({ slug }) => ({ slug }))
 
-  return params
+    const params = pages.docs
+      ?.filter((doc) => {
+        return doc.slug !== 'home'
+      })
+      .map(({ slug }) => ({ slug }))
+
+    return params
+  } catch {
+    return []
+  }
 }
 
 type Args = {

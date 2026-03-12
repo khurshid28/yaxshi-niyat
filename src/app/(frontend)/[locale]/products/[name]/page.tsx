@@ -54,25 +54,29 @@ export default async function Blog({ params }: Props) {
 }
 
 export async function generateStaticParams() {
-  const payload = await getPayload({ config: configPromise })
-  const pages = await payload.find({
-    collection: 'pages',
-    where: {
-      parent: {
-        equals: 7,
+  try {
+    const payload = await getPayload({ config: configPromise })
+    const pages = await payload.find({
+      collection: 'pages',
+      where: {
+        parent: {
+          equals: 7,
+        },
       },
-    },
-    limit: 1000,
-    overrideAccess: true,
-    pagination: false,
-    select: {
-      slug: true,
-    },
-  })
+      limit: 1000,
+      overrideAccess: true,
+      pagination: false,
+      select: {
+        slug: true,
+      },
+    })
 
-  const params = pages.docs.map(({ slug }) => ({ name: slug }))
+    const params = pages.docs.map(({ slug }) => ({ name: slug }))
 
-  return params
+    return params
+  } catch {
+    return []
+  }
 }
 
 type Args = {
