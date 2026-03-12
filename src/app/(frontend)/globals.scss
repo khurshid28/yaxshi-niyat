@@ -1,0 +1,355 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@font-face {
+  font-family: 'Sofia Sans';
+  src: url('/assets/fonts/SofiaSans-Regular.woff2') format('woff2-variations');
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Sofia Sans';
+  src: url('/assets/fonts/SofiaSans-Italic.woff2') format('woff2-variations'),
+    url('/assets/fonts/SofiaSans-Italic.woff') format('woff');
+  font-weight: 100 900;
+  font-style: italic;
+  font-display: swap;
+}
+
+@layer base {
+  :root {
+    --font-sofia-sans: 'Sofia Sans', 'Sofia Sans Fallback';
+    font-family: var(--font-nunito-sans);
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+
+  *:focus {
+    outline: none;
+  }
+
+  .font-sofiaSans {
+    font-feature-settings: "calt", "liga", "rvrn", "kern", "rclt", "ss01";
+    letter-spacing: -0.05em;
+  }
+}
+
+.text-ellipse {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.text-ellipse-4 {
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+
+@layer components {
+  .font-sofiaSans {
+
+    &-bold {
+      &-40 {
+        font-size: 40px;
+
+        font-weight: 700;
+        font-family: var(--font-sofia-sans);
+      }
+
+      &-36 {
+        font-size: 36px;
+
+        font-weight: 700;
+        font-family: var(--font-sofia-sans);
+      }
+
+      &-32 {
+        font-size: 32px;
+
+        font-weight: 700;
+        font-family: var(--font-sofia-sans);
+      }
+
+      &-26 {
+        font-size: 26px;
+
+        font-weight: 700;
+        font-family: var(--font-sofia-sans);
+      }
+
+      &-24 {
+        font-size: 24px;
+
+        font-weight: 700;
+        font-family: var(--font-sofia-sans);
+      }
+    }
+
+
+    &-regular {
+      &-40 {
+        font-size: 40px;
+        font-weight: 400;
+        font-style: italic;
+        font-family: var(--font-sofia-sans);
+      }
+
+      &-28 {
+        font-size: 28px;
+        font-weight: 400;
+        font-family: var(--font-sofia-sans);
+      }
+
+      &-24 {
+        font-size: 24px;
+        font-weight: 400;
+        font-family: var(--font-sofia-sans);
+      }
+
+      &-20 {
+        font-size: 20px;
+
+        font-weight: 400;
+        font-family: var(--font-sofia-sans);
+      }
+
+      &-18 {
+        font-size: 18px;
+
+        font-weight: 400;
+        font-family: var(--font-sofia-sans);
+      }
+
+      &-16 {
+        font-size: 16px;
+        font-weight: 400;
+        font-family: var(--font-sofia-sans);
+      }
+
+      &-14 {
+        font-size: 14px;
+        font-weight: 400;
+        font-family: var(--font-sofia-sans);
+      }
+    }
+
+    &-semibold {
+      &-48 {
+        font-size: 48px;
+
+        font-weight: 600;
+        font-family: var(--font-sofia-sans);
+      }
+
+      &-36 {
+        font-size: 36px;
+
+        font-weight: 600;
+        font-family: var(--font-sofia-sans);
+      }
+
+      &-32 {
+        font-size: 32px;
+
+        font-weight: 600;
+        font-family: var(--font-sofia-sans);
+      }
+
+      &-28 {
+        font-size: 28px;
+
+        font-weight: 600;
+        font-family: var(--font-sofia-sans);
+      }
+
+      &-24 {
+        font-size: 24px;
+
+        font-weight: 600;
+        font-family: var(--font-sofia-sans);
+      }
+
+      &-22 {
+        font-size: 22px;
+
+        font-weight: 600;
+        font-family: var(--font-sofia-sans);
+      }
+
+      &-20 {
+        font-size: 20px;
+
+        font-weight: 600;
+        font-family: var(--font-sofia-sans);
+      }
+
+      &-18 {
+        font-size: 18px;
+
+        font-weight: 600;
+        font-family: var(--font-sofia-sans);
+      }
+    }
+
+    &-medium {
+      &-32 {
+        font-size: 32px;
+
+        font-weight: 500;
+        font-family: var(--font-sofia-sans);
+      }
+
+      &-24 {
+        font-size: 24px;
+
+        font-weight: 500;
+        font-family: var(--font-sofia-sans);
+      }
+
+      &-20 {
+        font-size: 20px;
+
+        font-weight: 500;
+        font-family: var(--font-sofia-sans);
+      }
+
+      &-18 {
+        font-size: 18px;
+
+        font-weight: 500;
+        font-family: var(--font-sofia-sans);
+      }
+
+      &-16 {
+        font-size: 16px;
+
+        font-weight: 500;
+        font-family: var(--font-sofia-sans);
+      }
+
+      &-13 {
+        font-size: 16px;
+
+        font-weight: 500;
+        font-family: var(--font-sofia-sans);
+      }
+    }
+
+    &-light {
+      &-42 {
+        font-size: 42px;
+
+        font-weight: 300;
+        font-family: var(--font-sofia-sans);
+      }
+
+      &-28 {
+        font-size: 28px;
+
+        font-weight: 300;
+        font-family: var(--font-sofia-sans);
+      }
+
+      &-26 {
+        font-size: 26px;
+
+        font-weight: 300;
+        font-family: var(--font-sofia-sans);
+      }
+
+      &-24 {
+        font-size: 24px;
+
+        font-weight: 300;
+        font-family: var(--font-sofia-sans);
+      }
+
+      &-20 {
+        font-size: 20px;
+
+        font-weight: 300;
+        font-family: var(--font-sofia-sans);
+      }
+
+      &-18 {
+        font-size: 18px;
+
+        font-weight: 300;
+        font-family: var(--font-sofia-sans);
+      }
+    }
+  }
+}
+
+body {
+  background-color: #F0F0F0;
+}
+
+.row-to-col-md{
+  flex-direction: column;
+
+  @media (min-width: 960px) {
+    flex-direction: row;
+  }
+}
+
+.row-to-col-reverse-md{
+  flex-direction: column-reverse;
+
+  @media (min-width: 960px) {
+    flex-direction: row;
+  }
+}
+
+.flex-to-hidden-md{
+  display: none;
+
+  @media (min-width: 960px) {
+    display: flex;
+  }
+}
+
+.flex-to-hidden-lg{
+  display: none;
+
+  @media (min-width: 1280px) {
+    display: flex;
+  }
+}
+
+.row-to-col-lg{
+  flex-direction: column;
+
+  @media (min-width: 1280px) {
+    flex-direction: row;
+  }
+}
+
+.container{
+  max-width: 1440px;
+}
+
+
+@media (max-width:960px) {
+  .container{
+    padding-right: 16px!important;
+    padding-left: 16px!important;
+    max-width: 100%!important;
+  }
+
+  .icon-arrow-dash{
+    transform: rotate(80deg);
+  }
+}

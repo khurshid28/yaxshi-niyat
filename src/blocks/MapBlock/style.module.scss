@@ -1,0 +1,9 @@
+
+
+.map_block_container{
+  flex-direction: column;
+
+  @media (min-width: 1280px) {
+    flex-direction: row;
+  }
+}

@@ -1,0 +1,9 @@
+.product_banner{
+  display: flex;
+  flex-direction: column-reverse;
+  @media (min-width: 960px) {
+    display: grid;
+  }
+}
+
+

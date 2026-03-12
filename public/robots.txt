@@ -1,0 +1,57 @@
+# *
+User-agent: *
+Allow: /
+Disallow: /admin/
+Disallow: /api/
+Disallow: /private/
+Disallow: /dashboard/
+Disallow: /_next/
+Disallow: /static/
+Disallow: /auth/
+Disallow: /login/
+Disallow: /signin/
+Disallow: /account/
+Disallow: /user/
+Disallow: /profile/
+
+# ChatGPT-User
+User-agent: ChatGPT-User
+Disallow: /
+
+# GPTBot
+User-agent: GPTBot
+Disallow: /
+
+# Claude-Web
+User-agent: Claude-Web
+Disallow: /
+
+# ClaudeBot
+User-agent: ClaudeBot
+Disallow: /
+
+# FacebookBot
+User-agent: FacebookBot
+Disallow: /
+
+# Googlebot
+User-agent: Googlebot
+Allow: /*.js$
+Allow: /*.css$
+Disallow: /admin/
+Disallow: /api/
+Crawl-delay: 5
+
+# Yandex
+User-agent: Yandex
+Allow: /*.js$
+Allow: /*.css$
+Disallow: /admin/
+Disallow: /api/
+Crawl-delay: 5
+
+# Host
+Host: https://yaxshiniyat.uz
+
+# Sitemaps
+Sitemap: https://yaxshiniyat.uz/sitemap.xml

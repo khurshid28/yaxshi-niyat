@@ -1,0 +1,10 @@
+
+
+.tab_switch_block{
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.tab_switch_block::-webkit-scrollbar {
+  display: none;
+}

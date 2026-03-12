@@ -1,0 +1,503 @@
+{
+  "main": "Asosiy",
+  "about": "Biz haqimizda",
+  "microloans": "Mikrokreditlar",
+  "blog": "Blog",
+  "blog_title": "Yaxshi Niyat blogi — O'zbekistonda mikroqarz olish haqida barcha ma’lumotlar",
+  "blog_description_1": "Blogimizga xush kelibsiz! Bu yerda biz o'z mablag'larini to'g'ri boshqarishni, foydali mikrokredit olish yoki shunchaki mikroqarzlarni yaxshiroq tushunishni istaganlar uchun foydali va dolzarb ma'lumotlarni baham ko'ramiz.",
+  "blog_description_2": "Maqsadimiz — sizga moliyaviy qarorlar qabul qilishda yordam berish va mikromoliya mahsulotlari bilan ishlashda o'zingizni ishonchli his qilishdir.",
+  "contacts": "Aloqa",
+  "faq": "Savol-javoblar",
+  "faq_2": "Yaxshi Niyat mikroqarzlari haqida savol-javoblar",
+  "navigation": "Navigatsiya",
+  "all_questions": "Barcha savollar",
+  "all_articles": "Barcha maqolalar",
+  "footer_desc": "Biz har qanday maqsadlar, xaridlar uchun, eng muhimi – mijozlarimiz qulayligi uchun naqd pul yoki plastik kartaga kreditlar beramiz",
+  "bez_zaloga": "Garovsiz",
+  "pod_zalog": "Garov evaziga",
+  "bez_poruchitelya": "Kafilsiz",
+  "avtokredit": "Avtokredit",
+  "bez_zaloga_2": "Garovsiz mikroqarz",
+  "pod_zalog_2": "Garov evaziga mikroqarz",
+  "avtokredit_2": "Avtokredit",
+  "credit_type": "Kredit turi",
+  "apply": "Ariza topshiring",
+  "fill_application": "Ariza to‘ldirish",
+  "monthly_payment": "Oylik to‘lov",
+  "total_payment": "Umumiy to‘lov",
+  "term": "Muddat",
+  "to_term": "Muddatga",
+  "collateral_type": "Garov turi",
+  "calculate": "Hisoblash",
+  "details": "Batafsil",
+  "loan_amount": "Kredit summasi (so‘m)",
+  "desired_loan_amount": "Kerakli kredit miqdori (so‘mda)",
+  "prepayment": "Oldindan to‘lov",
+  "car_price": "Avtomobil narxi (so‘m)",
+  "sum": "so‘m",
+  "million_sum": "mln so‘m",
+  "months": "oy",
+  "to_months": "oygacha",
+  "at_month": "oyiga",
+  "credit_calculator": "Kredit kalkulyatori",
+  "credit_calculator_avtokredit": "Avtokredit kalkulyatori",
+  "credit_calculator_desc": "Summani va muddatni ko‘rsating — tizim avtomatik tarzda shartlarni hisoblab beradi.",
+  "credit_calculator_desc2": "Garov turini, summani va muddatni ko‘rsating — tizim avtomatik tarzda shartlarni hisoblab beradi.",
+  "calculation_note": "Hisoblash dastlabki hisob-kitob hisoblanadi. Aniqlashtirilgan hisob va shaxsiy taklif olish uchun ariza qoldiring, mutaxassislarimiz siz bilan bog‘lanadi.",
+  "heroFeatures": {
+    "first": {
+      "key": "Reyting 4.8",
+      "value": "Fikr-mulohazalar asosida 5.0 gacha"
+    },
+    "second": {
+      "key": "500 000+ dan ortiq",
+      "value": "Berilgan kreditlar"
+    },
+    "third": {
+      "key": "Tez ko‘rib chiqish",
+      "value": "1 soat ichida qaror"
+    }
+  },
+  "same_post": "Shunga o‘xshash maqolalar",
+  "select_region": "Hududni tanlang",
+  "map_block_title": "Aloqa va filiallar",
+  "map_block_title_2": " Yaxshi Niyat aloqalari",
+  "map_block_description_1": "Yaxshi Niyat mikromoliya tashkiloti qulay shartlarda tezkor mikroqarzlar va avtokreditlarni taklif etadi. Biz butun O'zbekiston bo'ylab ishlaymiz — istalgan vaqtda onlayn ariza topshirishingiz mumkin va qaror tezda qabul qilinadi. Plastik kartaga pul olishingiz mumkin, Toshkent aholisi esa mikroqarzni naqd pul ko’rinishida rasmiylashtirishlari va olishlari mumkin.",
+  "map_block_description_2": "Mutaxassislarimiz hujjatlarni rasmiylashtirishga yordam beradi va mikroqarzlar va avtokreditlar bilan bog'liq barcha masalalar bo'yicha maslahat beradi. Shartlar shaffof, ortiqcha to'lovlarsiz.",
+  "map_block_description_3": "Batafsil ma’lumot olish uchun hududingizni tanlang va saytda so'rov qoldiring yoki telefon orqali shahringizdagi ofis bilan bog'laning.",
+  "productsBlockDescription": "Daromad to‘g‘risida ma’lumotnomalarsiz va kafil talab qilinmagan holda xaridlar uchun pul.",
+  "real_estate": "Ko‘chmas mulk",
+  "car": "Avtomobil",
+  "gold": "Tilla",
+  "convenient_term": "Qulay muddat",
+  "from": "dan",
+  "to": "gacha",
+  "flexible_rate": "Moslashuvchan stavka",
+  "yearly": "yiliga",
+  "loan_amount_2": "Kredit summasi",
+  "modalForm": {
+    "title": "Arizani to‘ldiring",
+    "description": "Aniq hisob-kitob va shaxsiy taklif olish uchun ariza qoldiring, mutaxassislarimiz siz bilan bog‘lanadi.",
+    "name": "Ismingiz",
+    "phone": "Telefon raqamingiz",
+    "submit": "Yuborish",
+    "success": "Arizangiz uchun rahmat!",
+    "successDescription": "Mutaxassislarimiz tez orada siz bilan bog‘lanadi.",
+    "close": "Yopish"
+  },
+  "bannerContent": {
+    "pod_zalog": {
+      "span": "- Garov evaziga mikromoliyaviy kredit",
+      "title": "Uy-joy, avtomobil va tilla garovi evaziga qarzlar",
+      "title2": "2 soat ichida rasmiylashtirish!",
+      "title3": "Murojaat qilgan kuniyoq pulni oling!",
+      "img": "/assets/products/2.jpg"
+    },
+    "bez_zaloga": {
+      "span": "- Garovsiz mikromoliyaviy kredit",
+      "title": "Garovlarsiz mikroqarzlar — zarur paytdagi pullar",
+      "title2": "1 soat ichida rasmiylashtirish!",
+      "title3": "Minimal hujjatlar, shaffof shartlar, qulay to‘lov!",
+      "img": "/assets/products/1.jpg"
+    },
+    "avtokredit": {
+      "span": "- Avtokredit",
+      "title": "Qulay shartlarda avtokredit",
+      "title2": "2 soat ichida rasmiylashtirish!",
+      "title3": "Ortiqcha kutish va murakkab jarayonlarsiz. Minimal hujjatlar, tez tasdiqlash, qulay to‘lovlar.",
+      "img": "/assets/products/3.jpg"
+    }
+  },
+  "blocks": {
+    "licenses": {
+      "title": "Sertifikatlar va litsenziyalar",
+      "description": "Biz moliyaviy xizmatlar ko‘rsatish uchun barcha zarur sertifikat va litsenziyalarga egamiz.",
+      "license": "Litsenziya",
+      "guvohnoma": "Guvohnoma",
+      "agreement": "Hamkorlarsiz shartnoma",
+      "credit_policy": "Kredit siyosati",
+      "certificate": "Sertifikat"
+    },
+    "products": {
+      "title": "Qulay shartlarda qarzga pul",
+      "description": "Yaxshi Niyat pul olishning ishonchli yo’lini izlayotganlar uchun oddiy va qulay yechimlarni taklif etadi. Biz har qanday ehtiyojlar uchun pulni tez va qulay olishga yordam beramiz. O'zbekistonda, aynan o'z hududingizda tilla, avtomobil yoki uy-joy garovi evaziga tezkor mikroqarz rasmiylashtiring.",
+      "descriptions": {
+        "bez_zaloga": "Garovsiz va kafillarsiz mikrokroqarzlar. Rasmiy daromadlarsiz rasmiylashtirish imkoniyati. Faqatgina pasport bo'lsa bas.",
+        "avtokredit": "Yangi va xaydalgan avtomobillar uchun avtokredit. Oddiy jarayon, ikki soatlik ichida tasdiqlash.",
+        "pod_zalog": "Qo’shimcha foizlarsiz garov evaziga mikroqarz rasmiylashtiring. Mulkni baholash bepul va ortiqcha to'lovlarsiz qulay sharoitlar."
+      }
+    },
+    "about": {
+      "title": "Yaxshi Niyat MMT",
+      "description_0": "Kompaniya 2019 yilda moliyaviy yordamni har bir inson uchun ochiq qilish maqsadida tashkil etilgan. Bir nechta ofislar bilan boshlangan ishimiz bugungi kunda O‘zbekistonning 14 shahrida faoliyat yuritmoqda va odamlarning rejalarini amalga oshirishga yordam bermoqda.",
+      "description_1": "Banklardan farqli o‘laroq, biz ortiqcha rasmiyatchiliklarni olib tashladik — endi haftalar davomida tasdiq kutishingiz va murakkab hujjatlar yig‘ishingiz shart emas. Faqat bir soat ichida mijozlarimiz pul olishadi.",
+      "description_2": "Yillik ish faoliyatimiz davomida minglab mijozlar ishonchini qozonganimizdan faxrlanamiz.",
+      "description_3": "Bank sohasidagi tajribaga ega mutaxassislar jamoamiz foydali va shaffof moliyaviy yechimlar ishlab chiqmoqda, mikrokreditlarni oddiy, qulay va ochiq qilishga intiladi.",
+      "button": "Mahsulotlarimiz"
+    },
+    "aboutLicenses": {
+      "title": "Litsenziyalar va kafolatlar",
+      "description": "Yaxshi Niyat — O‘zbekiston qonunchiligiga qat’iy rioya qilgan holda faoliyat yurituvchi mikrokredit tashkiloti.",
+      "description_2": "Biz ishonchliligimiz va shaffofligimizni tasdiqlovchi barcha zarur hujjatlariga egamiz.",
+      "license": "Litsenziya",
+      "guvohnoma": "Guvohnoma",
+      "agreement": "Hamkorlarsiz shartnoma",
+      "credit_policy": "Kredit siyosati",
+      "certificate": "Sertifikat",
+      "description_3": "Biz barcha moliyaviy standartlarga, xavfsizlik va har bir kreditning qonuniyligiga rioya qilamiz.",
+      "official": "Rasmiy",
+      "reliable": "Ishonchli",
+      "transparent": "Shaffof"
+    },
+    "callToAction": {
+      "title": "Mikroqarzni qanday olish mumkin?",
+      "description": "3 bosqichda tez va oson kredit olish — ortiqcha murakkabliksiz.",
+      "step_1": "Arizani to‘ldiring",
+      "step_1_description": "Kerakli pul miqdori va muddatni ko'rsating hamda",
+      "step_1_description_2": "kerakli hujjatlarni taqdim eting",
+      "step_2": "Arizani ko‘rib chiqish",
+      "step_2_description": "Mutaxassislarimiz arizangizni 1 soat ichida ko‘rib chiqishadi",
+      "step_3": "Pulni oling",
+      "step_3_description": "Shartnomani imzolang va mablag‘ kartangizga o‘tkaziladi",
+      "documents": "Hujjatlar",
+      "documents_1": "Garovga oid hujjatlar",
+      "documents_2": "Pasport yoki ID-karta",
+      "documents_3": "*Mikrokredit 18 yoshdan oshgan mijozlarga, hatto mukammal kredit tarixiga ega bo‘lmaganlarga ham beriladi."
+    },
+    "additionalDocs": {
+      "title": "Qo‘shimcha hujjatlar",
+      "description": "Biz moliyaviy xizmatlar ko‘rsatish uchun barcha zarur sertifikat va litsenziyalarga egamiz.",
+      "doc_1": "Ko‘chmas mulk garoviga kredit tariflari",
+      "doc_2": "Garovli kreditlash uchun sug‘urta dasturi shartlari",
+      "doc_3": "Mulkni sug‘urtalash dasturi shartlari",
+      "doc_4": "Garov sifatida qabul qilinadigan ko‘chmas mulk talablari",
+      "doc_5": "Ko‘chmas mulk garoviga kredit hujjatlari talablari"
+    },
+    "employees": {
+      "title": "Ishonchli mutaxassislar",
+      "description": "Yaxshi Niyat jamoasi — bank va moliya sohasida ko‘p yillik tajribaga ega mutaxassislar.",
+      "position_1": "Ijrochi direktor",
+      "position_2": "Ijrochi direktor o‘rinbosari",
+      "position_3": "Ijrochi direktor o‘rinbosari",
+      "position_4": "Xavfsizlik bo‘limi boshlig‘i",
+      "position_5": "Bosh buxgalter",
+      "position_6": "Yuriskonsult",
+      "name_1": "Yo‘ldoshev Otabek Hasanboyevich",
+      "name_2": "Jumaniyozov Bekzod Pulatovich",
+      "name_3": "Raximov Sardor Sa’dullayevich",
+      "name_4": "Sultonov Jurabek Kamoliddinovich",
+      "name_5": "Toirov Nozimjon Nodirjon o‘g‘li",
+      "name_6": "Xaitov Oqiljon Olimjonovich"
+    },
+    "hero": {
+      "title": "Har qanday maqsadlar uchun mikroqarz",
+      "title_span": "1 soat ichida",
+      "description": "Kvartira, avtomobil, dam olish va boshqa xaridlar uchun daromad hujjatisiz va kafilsiz pul mablag‘lari."
+    }
+  },
+  "products": {
+    "bez_zaloga": {
+      "conditions_title": "Garovsiz mikroqarz shartlari",
+      "conditions_description": "Mikroqarzni garovlarsiz tez va qulay tarzda olishingiz uchun biz oddiy va shaffof rasmiylashtirish shartlarini taklif qilamiz. Garovsiz mikroqarz olish haqida batafsil ma'lumotni tekshiring. Olish uchun sizga faqat pasportingiz kerak bo'ladi. Mikroqarz miqdorini bilish uchun ariza qoldiring.",
+      "conditions": {
+        "0": {
+          "title": "Ta'minot",
+          "text": "To'lovni bajarmaslik xavfi polisi",
+          "description": "mikroqarz summasining kamida 130%",
+          "document": ""
+        },
+        "1": {
+          "title": "Foiz stavkasi",
+          "text": "Yiliga 80%",
+          "description": "",
+          "document": ""
+        },
+        "2": {
+          "title": "Mikroqarz summasi",
+          "text": "25 000 000 so‘mgacha",
+          "description": "",
+          "document": ""
+        },
+        "3": {
+          "title": "Mikroqarz muddati",
+          "text": "12 oygacha",
+          "description": "",
+          "document": ""
+        },
+        "4": {
+          "title": "Qarzdorni sug'urtalash",
+          "text": "Majburiy emas",
+          "description": "",
+          "document": ""
+        },
+        "5": {
+          "title": "To‘lov turi",
+          "text": "Annuitet usulida",
+          "description": "",
+          "document": ""
+        },
+        "6": {
+          "title": "Muddatidan o‘tgan qarz uchun",
+          "text": "yiliga 100% stavkada penya hisoblanadi",
+          "description": "",
+          "document": ""
+        },
+        "7": {
+          "title": "Qarzni oluvchiga talablar",
+          "text": "21 yoshdan, ijobiy kredit tarixi, O‘zbekiston fuqarosi",
+          "description": "",
+          "document": ""
+        },
+        "8": {
+          "title": "Mikroqarz shartnomasi",
+          "text": "Mikroqarz_shartnomasi.pdf",
+          "description": "",
+          "document": "/assets/documents/Mikroqarz_shartnomasi.pdf"
+        }
+      }
+    },
+    "pod_zalog": {
+      "nedvij": "Ko‘chmas mulk",
+      "avto": "Avtomobil",
+      "gold": "Tilla",
+      "conditions_title": "Garov evaziga mikroqarz shartlari",
+      "conditions_description": "Mikroqarz yoki mikrokreditni garov evaziga tez va foydali olishingiz uchun biz har xil garov turlari uchun qulay va shaffof kredit shartlarini taklif etamiz. Tilla garovi, avtomobil garovi yoki uy-joy garovi uchun kredit olish shartlarini ko'rib chiqing. Limitgizni bilish uchun so'rov qoldiring.",
+      "conditions": {
+        "nedvij": {
+          "0": {
+            "title": "Ta'minot",
+            "text": "Ko‘chmas mulk",
+            "description": "Mikroqarz summasining kamida 150% miqdorida garov ta'minoti",
+            "document": ""
+          },
+          "1": {
+            "title": "Foiz stavkasi",
+            "text": "yiliga 60% dan boshlab",
+            "description": "",
+            "document": ""
+          },
+          "2": {
+            "title": "Mikroqarz summasi",
+            "text": "{maxLoanAmount} so‘mgacha",
+            "description": "",
+            "document": ""
+          },
+          "3": {
+            "title": "Mikroqarz muddati",
+            "text": "{maxTermMonths} oygacha",
+            "description": "",
+            "document": ""
+          },
+          "4": {
+            "title": "Qarzdorni sug'urtalash",
+            "text": "Majburiy emas",
+            "description": "",
+            "document": ""
+          },
+          "5": {
+            "title": "To‘lov turi",
+            "text": "Annuitet yoki differensial usulda",
+            "description": "agar kredit muddati 30 oydan oshsa, doim differensial",
+            "document": ""
+          },
+          "6": {
+            "title": "Muddatidan o‘tgan qarz uchun",
+            "text": "yiliga 100% stavkada penya hisoblanadi",
+            "description": "",
+            "document": ""
+          },
+          "7": {
+            "title": "Qarzni oluvchiga talablar",
+            "text": "18 yoshdan, garov ko‘chmas mulki, garov hujjatlari",
+            "description": "rasmiy ish joyi talab qilinmaydi",
+            "document": ""
+          },
+          "8": {
+            "title": "Mikroqarz shartnomasi",
+            "text": "Mikroqarz_shartnomasi.pdf",
+            "description": "",
+            "document": "/assets/documents/Mikroqarz_shartnomasi.pdf"
+          }
+        },
+        "avto": {
+          "0": {
+            "title": "Ta'minot",
+            "text": "Avtomobil",
+            "description": "Mikroqarz summasining kamida 150% miqdorida garov ta'minoti",
+            "document": ""
+          },
+          "1": {
+            "title": "Foiz stavkasi",
+            "text": "yiliga 60% dan boshlab",
+            "description": "",
+            "document": ""
+          },
+          "2": {
+            "title": "Mikroqarz summasi",
+            "text": "{maxLoanAmount} so‘mgacha",
+            "description": "",
+            "document": ""
+          },
+          "3": {
+            "title": "Mikroqarz muddati",
+            "text": "{maxTermMonths} oygacha",
+            "description": "",
+            "document": ""
+          },
+          "4": {
+            "title": "Qarzdorni sug'urtalash",
+            "text": "Majburiy emas",
+            "description": "",
+            "document": ""
+          },
+          "5": {
+            "title": "To‘lov turi",
+            "text": "Annuitet yoki differensial usulda",
+            "description": "agar kredit muddati 30 oydan oshsa, doim differensial",
+            "document": ""
+          },
+          "6": {
+            "title": "Muddatidan o‘tgan qarz uchun",
+            "text": "yiliga 100% stavkada penya hisoblanadi",
+            "description": "",
+            "document": ""
+          },
+          "7": {
+            "title": "Qarzni oluvchiga talablar",
+            "text": "18 yoshdan, garov ko‘chmas mulki, garov hujjatlari",
+            "description": "rasmiy ish joyi talab qilinmaydi",
+            "document": ""
+          },
+          "8": {
+            "title": "Mikroqarz shartnomasi",
+            "text": "Mikroqarz_shartnomasi.pdf",
+            "description": "",
+            "document": "/assets/documents/Mikroqarz_shartnomasi.pdf"
+          }
+        },
+        "gold": {
+          "0": {
+            "title": "Ta'minot",
+            "text": "Tilla",
+            "description": "Mikroqarz summasining kamida 150% miqdorida garov ta'minoti",
+            "document": ""
+          },
+          "1": {
+            "title": "Foiz stavkasi",
+            "text": "yiliga 60% dan boshlab",
+            "description": "",
+            "document": ""
+          },
+          "2": {
+            "title": "Mikroqarz summasi",
+            "text": "{maxLoanAmount} so‘mgacha",
+            "description": "",
+            "document": ""
+          },
+          "3": {
+            "title": "Mikroqarz muddati",
+            "text": "{maxTermMonths} oygacha",
+            "description": "",
+            "document": ""
+          },
+          "4": {
+            "title": "Qarzdorni sug'urtalash",
+            "text": "Majburiy emas",
+            "description": "",
+            "document": ""
+          },
+          "5": {
+            "title": "To‘lov turi",
+            "text": "Annuitet usulda",
+            "description": "",
+            "document": ""
+          },
+          "6": {
+            "title": "Muddatidan o‘tgan qarz uchun",
+            "text": "yiliga 100% stavkada penya hisoblanadi",
+            "description": "",
+            "document": ""
+          },
+          "7": {
+            "title": "Qarzni oluvchiga talablar",
+            "text": "18 yoshdan, garov ko‘chmas mulki, garov hujjatlari",
+            "description": "rasmiy ish joyi talab qilinmaydi",
+            "document": ""
+          },
+          "8": {
+            "title": "Mikroqarz shartnomasi",
+            "text": "Mikroqarz_shartnomasi.pdf",
+            "description": "",
+            "document": "/assets/documents/Mikroqarz_shartnomasi.pdf"
+          }
+        }
+      }
+    },
+    "avtokredit": {
+      "conditions_title": "Avtokredit shartlari",
+      "conditions_description": "Tezkor va foydali yechim – Yaxshi Niyat tomonidan O'zbekistonda avtokredit. 2007 yildan boshlab ishlab chiqarilgan avtomobillar uchun kredit olish orqali kafillarsiz avtomobilga ega bo’lish imkoniyatidan foydalaning. Biz minimal hujjatlar to'plami, arizani tezda ko'rib chiqish va shaffof shartlarni taklif qilamiz. Yaxshi Niyat yordamida siz har qanday sotuvchidan yoki ikkilamchi bozordan yangi va xaydalgan (foydalanilgan) avtomobil uchun foydali avtokredit olishingiz mumkin.",
+      "conditions": {
+        "0": {
+          "title": "Ta'minot",
+          "text": "Avtotransport vositasi, To'lovni bajarmaslik xavfi polisi",
+          "description": "mikroqarz summasining kamida 140%",
+          "document": ""
+        },
+        "1": {
+          "title": "Foiz stavkasi",
+          "text": "Yiliga 54%",
+          "description": "",
+          "document": ""
+        },
+        "2": {
+          "title": "Oldindan to'lov",
+          "text": "{downPaymentPercent}%",
+          "description": "",
+          "document": ""
+        },
+        "3": {
+          "title": "Avtokredit summasi",
+          "text": "{maxLoanAmount} so‘mgacha",
+          "description": "",
+          "document": ""
+        },
+        "4": {
+          "title": "Avtokredit muddati",
+          "text": "{maxTermMonths} oygacha",
+          "description": "",
+          "document": ""
+        },
+        "5": {
+          "title": "Qarzdorni sug'urtalash",
+          "text": "Majburiy emas",
+          "description": "",
+          "document": ""
+        },
+        "6": {
+          "title": "To‘lov turi",
+          "text": "Annuitet usulida",
+          "description": "",
+          "document": ""
+        },
+        "7": {
+          "title": "Muddatidan o‘tgan qarz uchun",
+          "text": "yiliga 100% stavkada penya hisoblanadi",
+          "description": "",
+          "document": ""
+        },
+        "8": {
+          "title": "Qarzni oluvchiga talablar",
+          "text": "21 yoshdan, ijobiy kredit tarixi, O‘zbekiston fuqarosi",
+          "description": "rasmiy ish joyi talab qilinmaydi",
+          "document": ""
+        },
+        "9": {
+          "title": "Avtokredit shartnomasi",
+          "text": "Mikroqarz_shartnomasi.pdf",
+          "description": "",
+          "document": "/assets/documents/Mikroqarz_shartnomasi.pdf"
+        }
+      }
+    }
+  }
+}

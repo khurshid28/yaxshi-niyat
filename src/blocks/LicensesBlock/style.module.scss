@@ -1,0 +1,8 @@
+
+.block_items{
+  & > div:last-child{
+    & > div{
+    border:none!important;
+  }
+  }
+}

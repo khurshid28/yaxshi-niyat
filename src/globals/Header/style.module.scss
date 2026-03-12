@@ -1,0 +1,6 @@
+.mobile_block_content{
+  display: flex;
+  @media (min-width: 1280px) {
+    display: none!important;
+  }
+}
