@@ -69,7 +69,7 @@ export default async function middleware(req: NextRequest) {
   const response = intlMiddleware(req)
   
   // Add security headers
-  if (!isLocalhost) {
+  if (!isLocal) {
     response.headers.set(
       'Strict-Transport-Security',
       'max-age=31536000; includeSubDomains; preload'
